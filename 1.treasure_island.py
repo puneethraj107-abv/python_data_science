@@ -35,4 +35,4 @@ if choice1=="left":
     else:
         print("you were eaten by crocodiles, game over")
 else:
-    print("you got lost game over")
+    print("you got lost game end")
