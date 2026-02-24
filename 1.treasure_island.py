@@ -23,11 +23,11 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 print("Welcome to Treasure Island.")
 print("Your mission is to find the treasure.")
 
-choice1=input("do you wanna go left or right")
+choice1=input("do you wanna go left or right\n")
 if choice1=="left":
-    choice2=input("do you wanna swim or wait")
+    choice2=input("do you wanna swim or wait\n")
     if choice2=="wait":
-        choice3=input("do you you have three doors red, yellow, blue")
+        choice3=input("do you you have three doors red, yellow, blue\nS")
         if choice3=="yellow":
             print("you survived the game congradulation,you win")
         else:
