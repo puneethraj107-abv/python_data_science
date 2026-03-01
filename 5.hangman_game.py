@@ -53,14 +53,16 @@ while not game_over:
 
         
 
-    if "_" not in display:
-        game_over = True
-        print("****************************YOU WIN****************************")
+
 
     # TODO-2: - Update the code below to use the stages List from the file hangman_art.py
     print(stages[lives])
+    if "_" not in display:
+        game_over = True
+        print("****************************YOU WIN****************************")
     if lives == 0:
             game_over = True
 
             # TODO 7: - Update the print statement below to give the user the correct word they were trying to guess.
             print(f"***********************YOU LOSE**********************")
+            
