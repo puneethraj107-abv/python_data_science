@@ -15,8 +15,6 @@ def caesar(original_text, shift_amount, encode_or_decode):
     print(f"Here is the {encode_or_decode}d result: {output_text}")
 
 
-# TODO-3: Can you figure out a way to restart the cipher program?
-
 should_continue=True
 while should_continue:
     direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n").lower()
