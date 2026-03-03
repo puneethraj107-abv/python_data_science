@@ -13,7 +13,7 @@ print(auction)
 highest_bid=0
 highest_bidder=""
 for key in auction:
-    if auction[key] >=highest_bid:
+    if auction[key] >highest_bid:
         highest_bid=auction[key]
         highest_bidder=key
 print(f"the highest bid is {highest_bid}, and the winner is {highest_bidder}")
