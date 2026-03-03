@@ -22,8 +22,7 @@ while should_continue:
     shift = int(input("Type the shift number:\n"))
 
     caesar(original_text=text, shift_amount=shift, encode_or_decode=direction)
-    continuation=input("do you want to continue(y/n)")
+    continuation=input("do you want to continue(y/n): ")
     if continuation=="n":
         should_continue=False
         
-
